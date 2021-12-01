@@ -1,4 +1,36 @@
 <!DOCTYPE html>
 <html>
-    
+    <head><h1>Formulario</h1></head>
+    <body>
+        <form>
+            <label for="nombre">Nombre</label><br>
+            <input type="text" id="nombre" required><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" placeholder="intoduce tu email" required><br>
+            <label for="edad">Edad</label><br>
+            <input id="edad" type="number" min="15" placeholder="Edad" required><br>
+            <label for="estado">Introduce tu estado actual</label><br>
+            <select id="estado" required><br>
+                <option value="estudiante">Estudiante</option>
+                <option value="t-tiempo-completo">Trabajador a tiempo completo</option>
+                <option value="e-tiempo-completo">Aprendiz a tiempo completo</option>
+                <option value="nc">Prefiero no decirlo</option>
+            </select>
+            <fieldset aria-required="true">
+                <legend>¿Te ha gustado este formulario?</legend>
+                <p>
+                  <input type="radio" id="si" name="boton">
+                  <label for="si">Si</label>
+                </p>
+                <p>
+                  <input type="radio" id="pm" name="boton">
+                  <label for="pm">Puede mejorar</label>
+                </p>
+                <p>
+                  <input type="radio" id="No" name="boton">
+                  <label for="No">No</label>
+                </p>
+              </fieldset>
+        </form>
+    </body>
 </html>

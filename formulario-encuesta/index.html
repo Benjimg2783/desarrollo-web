@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
-    <head><h1>Formulario</h1></head>
+    <head>
+      <h1>Formulario</h1>
+      <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    </head>
     <body>
         <form>
             <label for="nombre">Nombre</label><br>
@@ -30,7 +33,20 @@
                   <input type="radio" id="No" name="boton">
                   <label for="No">No</label>
                 </p>
-              </fieldset>
+            </fieldset>
+            <fieldset>
+              <legend for="mejorar">¿Qué aspecto crees que necesita mejorar? (puedes marcar ambas)</legend><br>
+              <p>
+              <label for="html">Contenido HTML</label>
+              <input type="checkbox" id="html">
+              </p>
+              <p>
+                <label for="CSS">Contenido CSS</label>
+                <input type="checkbox" id="CSS">
+              </p>
+            </fieldset>
+            <label for="comment">Comentario</label><br>
+            <textarea id="comment" maxlength="200"></textarea>
         </form>
     </body>
 </html>

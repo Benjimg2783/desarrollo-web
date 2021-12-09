@@ -6,6 +6,8 @@
     </head>
     <body>
         <form>
+          <p>
+          <div class="centro">
             <label for="nombre">Nombre</label><br>
             <input type="text" id="nombre" required><br>
             <label for="email">Email</label><br>
@@ -19,6 +21,9 @@
                 <option value="e-tiempo-completo">Aprendiz a tiempo completo</option>
                 <option value="nc">Prefiero no decirlo</option>
             </select>
+          </p>
+          </div>
+          <p>
             <fieldset aria-required="true">
                 <legend>¿Te ha gustado este formulario?</legend>
                 <p>
@@ -34,7 +39,9 @@
                   <label for="No">No</label>
                 </p>
             </fieldset>
-            <fieldset>
+          </p>
+          <p>
+            <fieldset aria-required="true">
               <legend for="mejorar">¿Qué aspecto crees que necesita mejorar? (puedes marcar ambas)</legend><br>
               <p>
               <label for="html">Contenido HTML</label>
@@ -45,8 +52,14 @@
                 <input type="checkbox" id="CSS">
               </p>
             </fieldset>
+          </p>
+          <p>
+            <div class="centro">
             <label for="comment">Comentario</label><br>
             <textarea id="comment" maxlength="200"></textarea>
+            </div>
+          </p>
+          <button type="button">Enviar</button>
         </form>
     </body>
 </html>

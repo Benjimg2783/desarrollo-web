@@ -1,7 +1,29 @@
 form{
-    
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    align-items: center;
     color: black;
-    background-color: blueviolet;
-    opacity: 0.7;
+    background-color:rgba(0, 0, 0, .4);
+    color: white;
+} 
+h1{
+    text-align: center;
+    color: white;
+}
+body{
+    background-image:url( imagenes/fondo-formulario.jpeg );
+}
+.centro{
+    text-align: center;
+}
+legend{
+    text-align: center;
+    font-size: 18px;
+}
+button{
+    position: relative;
+    width: 80px;
+    height: 25px;
+    left: 77%;
 }
